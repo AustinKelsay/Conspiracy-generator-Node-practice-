@@ -8,5 +8,5 @@ fs.mkdirSync(dir)
 
 for (let i = 0; i <= 100; i++) {
     //creates new file
-    fs.writeFileSync(`${dir}/${i}.txt,` `Epstien didn't kill himself.`)
+    fs.writeFileSync(`${dir}/${i}.txt`, `Epstien didn't kill himself.`)
 }
